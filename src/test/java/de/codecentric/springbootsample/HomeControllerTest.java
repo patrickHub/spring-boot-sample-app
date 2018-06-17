@@ -35,6 +35,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import de.bechte.junit.runners.context.HierarchicalContextRunner;
+import de.codecentric.springbootsample.controller.HomeController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

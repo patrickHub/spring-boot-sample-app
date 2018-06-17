@@ -13,11 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.codecentric.springbootsample;
+package de.codecentric.springbootsample.controller;
 
 import javax.validation.Valid;
 import java.util.List;
 
+import de.codecentric.springbootsample.Record;
+import de.codecentric.springbootsample.RecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
