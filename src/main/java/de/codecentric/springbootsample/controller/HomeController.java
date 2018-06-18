@@ -18,7 +18,7 @@ package de.codecentric.springbootsample.controller;
 import javax.validation.Valid;
 import java.util.List;
 
-import de.codecentric.springbootsample.Record;
+import de.codecentric.springbootsample.model.Record;
 import de.codecentric.springbootsample.RecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package de.codecentric.springbootsample;
+package de.codecentric.springbootsample.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
