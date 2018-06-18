@@ -35,11 +35,17 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
+
     private RecordRepository repository;
 
     @Qualifier("userService")
     @Autowired
     private UserService userService;
+
+    @Autowired
+    public HomeController(RecordRepository repository){
+        this.repository = repository;
+    }
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView home() {
