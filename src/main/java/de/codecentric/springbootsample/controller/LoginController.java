@@ -11,14 +11,14 @@ import org.springframework.web.servlet.ModelAndView;
  */
 
 @Controller
-@RequestMapping(value = {"/login"})
+@RequestMapping(value = {"/", "/login"})
 public class LoginController {
 
     @RequestMapping(method = RequestMethod.GET)
-    public String login(){
-        //ModelAndView modelAndView = new ModelAndView();
-        //modelAndView.setViewName("login");
-        return "login";
+    public ModelAndView login(){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("login");
+        return modelAndView;
     }
 
 }

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ee35380-038b-4f9b-8375-1ee990a40c86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/LoginController.java" />
     </list>
     <ignored path="springboot-sample-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -883,7 +883,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529274211699</updated>
-      <workItem from="1529274218122" duration="5420000" />
+      <workItem from="1529274218122" duration="6246000" />
     </task>
     <task id="LOCAL-00001" summary="fix login bug">
       <created>1529279602586</created>
@@ -899,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529281036454</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix login bug">
+      <created>1529282195576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529282195577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5420000" />
+    <option name="totallyTimeSpent" value="6246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1066,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/codecentric/springbootsample/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
