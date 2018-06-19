@@ -15,19 +15,11 @@
  */
 package de.codecentric.springbootsample.controller;
 
-import javax.validation.Valid;
-import java.util.List;
-
-import de.codecentric.springbootsample.model.Record;
-import de.codecentric.springbootsample.RecordRepository;
-import de.codecentric.springbootsample.model.User;
+import de.codecentric.springbootsample.repository.RecordRepository;
 import de.codecentric.springbootsample.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -49,11 +41,6 @@ public class HomeController {
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView home() {
-        /* List<User> records = repository.findAll();
-        model.addAttribute("records", records);
-        model.addAttribute("insertRecord", new Record());
-        return "home";*/
-
         ModelAndView modelAndView = new ModelAndView();
         //Authentication auth = SecurityContextHolder.getContext().getAuthentication();
        // User user = userService.findUserByEmail(auth.getName());

@@ -1,4 +1,4 @@
-package de.codecentric.springbootsample;
+package de.codecentric.springbootsample.repository;
 
 import de.codecentric.springbootsample.model.Record;
 import org.springframework.data.jpa.repository.JpaRepository;
