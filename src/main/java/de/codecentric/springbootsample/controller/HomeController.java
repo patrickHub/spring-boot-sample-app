@@ -15,7 +15,6 @@
  */
 package de.codecentric.springbootsample.controller;
 
-import de.codecentric.springbootsample.repository.RecordRepository;
 import de.codecentric.springbootsample.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -28,16 +27,10 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
 
-    private RecordRepository repository;
 
     @Qualifier("userService")
     @Autowired
     private UserService userService;
-
-    @Autowired
-    public HomeController(RecordRepository repository){
-        this.repository = repository;
-    }
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView home() {

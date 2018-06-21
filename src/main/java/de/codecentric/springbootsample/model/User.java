@@ -12,12 +12,20 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "userAccount")
+@Table(name = "useraccount")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private int id;
+
+    @NotEmpty(message = "*Please privide your first name")
+    @Column(name = "firstName")
+    private String firstName;
+
+    @NotEmpty(message = "*Please privide your last name")
+    @Column(name = "lastName")
+    private String lastName;
 
     @Email(message = "*Please provide a valid Email")
     @NotEmpty(message = "*Please privide an Email")
@@ -29,14 +37,6 @@ public class User {
     @Transient
     @Column(name = "pass", unique = true)
     private String password;
-
-    @NotEmpty(message = "*Please privide your first name")
-    @Column(name = "firstName")
-    private String firstName;
-
-    @NotEmpty(message = "*Please privide your last name")
-    @Column(name = "lastName")
-    private String lastName;
 
     public int getId() {
         return id;
